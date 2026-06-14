@@ -49,7 +49,7 @@ streamlit hello                                   # http://localhost:8501 자동
 | **실습 2.** 지도학습 분류 | `notebooks/02_sentiment.ipynb` | 모델 비교표 + 혼동 행렬 |
 | **실습 3.** OpenAI API 활용 | `notebooks/03_openai_llm.ipynb` | 분류 셀 + ML vs LLM 비교표 |
 | **실습 4.** 챗봇 (메모리) | `notebooks/04_chatbot_memory.ipynb` | 멀티턴 챗봇 + 환각 로그 |
-| **실습 5.** 웹 챗봇 | `web/streamlit_app.py` + `web/gradio_app.py` | 데모 URL |
+| **실습 5.** 웹 챗봇 | `notebooks/05_web_chatbot.ipynb`(준비) → `web/streamlit_app.py` + `web/gradio_app.py` | 데모 URL |
 | **실습 6.** RAG + MCP | `notebooks/06_rag.ipynb` · `notebooks/07_agent_tools.ipynb` · `web/streamlit_rag.py` · `mcp_demo/library_server.py` | RAG 챗봇 + MCP 서버 |
 
 ## 이 저장소가 제공하는 파일
@@ -59,6 +59,7 @@ notebooks/   실습 1~6 노트북
   02_sentiment.ipynb        실습 2 — sklearn 감성 분류
   03_openai_llm.ipynb       실습 3 — OpenAI API · 리뷰 분류 · 비용
   04_chatbot_memory.ipynb   실습 4 — 멀티턴 메모리 챗봇
+  05_web_chatbot.ipynb      실습 5 (준비) — openai SDK→LangChain 다리 · Streamlit 골격
   06_rag.ipynb              실습 6-1 — LangChain + FAISS RAG
   07_agent_tools.ipynb      실습 6-3 — Agent 도구 → MCP
 data/        make_reviews.py (실습 1·2 데이터 생성기) · sample_docs/ (RAG 샘플 문서)
