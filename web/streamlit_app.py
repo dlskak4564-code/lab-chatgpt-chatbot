@@ -22,7 +22,7 @@ PERSONAS = {
 MAX_CHARS = 500  # 운영 가드 — 입력 길이 제한
 
 st.set_page_config(page_title="나만의 ChatGPT", page_icon="💬")
-st.title("나만의 ChatGPT 💬 (Streamlit)")
+st.title("나만의 ChatGPT (간단)")
 
 # ── 사이드바: 페르소나 / temperature ──────────────────────────────
 with st.sidebar:
